@@ -47,5 +47,11 @@ Añadimos commiteamos y volvemos a la rama main
 git checkout main
 Realizamos el merge y gestionamos el error con nuestro editor
 git merge v0.2
-Aceptamos ambos cambios añadimos commiteamos y pusheamos
+Aceptamos ambos cambios añadimos una etiqueta commiteamos y pusheamos
+git add .
+git tag -a "v0.2" -m "Changes done"
+git commit
+git push --all
+Borramos la rama v0.2
+git branch -d v0.2
 
