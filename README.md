@@ -13,6 +13,8 @@ Editamos el archivo .gitignore y añadimos los nombres de los archivos y directo
 
 Añadimos los cambios
 git add .
+Creamos el fichero 1.txt
+touch 1.txt
 Añadimos la etiqueta y le hacemos un commit a la vez
 git tag -a "v0.1" -m "I've done the private files"
 Le realizamos el commit a los cambios
