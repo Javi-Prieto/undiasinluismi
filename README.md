@@ -32,3 +32,20 @@ git commit -m "Initial Commit"
 Creamos la rama remota y la conectamos con la local a su vez subimos los cambios
 git push --set-upstream origin v0.2
 
+Vamos a la rama main
+git checkout main
+Realizamos el merge
+git merge v0.2
+
+Modificamos el archivo 1.txt
+echo 1.txt >> "Hola"
+Añadimos commiteamos y volvemos a la rama main vamos a la rama v0.2
+git checkout v0.2
+Editamos el archivo 1.txt
+echo 1.txt > "Adios"
+Añadimos commiteamos y volvemos a la rama main
+git checkout main
+Realizamos el merge y gestionamos el error con nuestro editor
+git merge v0.2
+Aceptamos ambos cambios añadimos commiteamos y pusheamos
+
