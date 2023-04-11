@@ -20,3 +20,13 @@ git commit -m "I've done the private files"
 Subimos los cambios
 git push
 
+Creamos una nueva rama
+git checkout -b v0.2
+Creamos el fichero en la rama
+touch 2.txt
+Añadimos y commiteamos
+git add .
+git commit -m "Initial Commit"
+Creamos la rama remota y la conectamos con la local a su vez subimos los cambios
+git push --set-upstream origin v0.2
+
